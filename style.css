@@ -1,0 +1,21 @@
+d {
+    border: 1px solid;
+    padding:0.5rem;
+   
+}
+
+table {
+     border-collapse: collapse;
+     margin: 0 2rem 2rem 2rem;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media only screen and (min-width: 728px){
+    div {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+}
